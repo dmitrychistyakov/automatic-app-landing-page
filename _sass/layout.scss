@@ -381,13 +381,13 @@ nav > ul li a:active {
 .iphonePreview {
 	grid-area: p;
 	background-image: url($device-color);
-	background-size: 400px auto;
+	background-size: 800px auto;
 	background-repeat: no-repeat;
 	margin-top: 68px;
 }
 
 .iphoneScreen {
-	width: 349px;
+	width: 698px;
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
 	margin-left: 26px;
@@ -411,11 +411,11 @@ nav > ul li a:active {
 @media only screen and (max-width: 1070px) {
 
 	.iphonePreview {
-		background-size: 370px auto;
+		background-size: 740px auto;
 	}
 
 	.iphoneScreen {
-		width: 322px;
+		width: 644x;
 		margin-left: 24px;
 		margin-top: 22px;
 	}
@@ -438,7 +438,7 @@ nav > ul li a:active {
 
 	.iphonePreview {
 		display: flex;
-		background-size: 260px auto;
+		background-size: 520px auto;
 		background-position: center 0;
 		margin-top: 47px;
 		justify-content: center;
@@ -446,8 +446,8 @@ nav > ul li a:active {
 	}
 
 	.iphoneScreen {
-		width: 226px;
-		height: 488px;
+		width: 488px;
+		height: 226px;
 		-webkit-clip-path: url(#screenMask);
 		clip-path: url(#screenMask);
 		margin: 0px;
