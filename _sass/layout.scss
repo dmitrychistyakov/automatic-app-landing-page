@@ -387,6 +387,7 @@ nav > ul li a:active {
 	margin-top: 68px;
 	justify-content: center;
 	display: flex;
+	background-position: center 0;
 }
 
 .iphoneScreen {
@@ -441,7 +442,6 @@ nav > ul li a:active {
 	.iphonePreview {
 		display: flex;
 		background-size: 520px auto;
-		background-position: center 0;
 		margin-top: 47px;
 		padding-bottom: 75px;
 	}
