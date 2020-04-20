@@ -248,13 +248,13 @@ nav > ul li a:active {
 	flex-wrap: wrap;
 	padding-top: 140px;
 	align-content: flex-start;
+	justify-content: center;
 }
 
 @media only screen and (max-width: 992px) {
 
 	.appInfo {
 		padding-top: 50px;
-		justify-content: center;
 	}
 
 } 
@@ -384,6 +384,7 @@ nav > ul li a:active {
 	background-size: 800px auto;
 	background-repeat: no-repeat;
 	margin-top: 68px;
+	justify-content: center;
 }
 
 .iphoneScreen {
@@ -410,6 +411,7 @@ nav > ul li a:active {
 
 	.iphonePreview {
 		background-size: 740px auto;
+		padding-bottom: 30px;
 	}
 
 	.iphoneScreen {
@@ -439,7 +441,6 @@ nav > ul li a:active {
 		background-size: 520px auto;
 		background-position: center 0;
 		margin-top: 47px;
-		justify-content: center;
 		padding-bottom: 75px;
 	}
 
